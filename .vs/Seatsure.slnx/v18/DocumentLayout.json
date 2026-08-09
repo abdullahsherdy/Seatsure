@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\eventstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\eventstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39CC011A-93A3-6E1E-2978-C5ABF728AA6D}|Seatsure.DAL\\Seatsure.DAL.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39CC011A-93A3-6E1E-2978-C5ABF728AA6D}|Seatsure.DAL\\Seatsure.DAL.csproj|solutionrelative:seatsure.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.DAL\\Migrations\\20260807213115_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Seatsure.DAL\\Migrations\\20260807213115_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,36 +43,8 @@
       "RelativeMoniker": "D:0:0:{66861F00-461A-E312-300C-01534F6BAE72}|Seatsure\\Seatsure.csproj|solutionrelative:seatsure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39CC011A-93A3-6E1E-2978-C5ABF728AA6D}|Seatsure.DAL\\Seatsure.DAL.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39CC011A-93A3-6E1E-2978-C5ABF728AA6D}|Seatsure.DAL\\Seatsure.DAL.csproj|solutionrelative:seatsure.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\eventstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\eventstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42ABD517-45EF-3C96-77BD-BD3D8D6A6470}|Seatsure.Domain\\Seatsure.Domain.csproj|solutionrelative:seatsure.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66861F00-461A-E312-300C-01534F6BAE72}|Seatsure\\Seatsure.csproj|d:\\back end\\recap\\new projects\\test\\seatsure\\seatsure\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,20 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "20260807213115_InitialCreate.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.DAL\\Migrations\\20260807213115_InitialCreate.cs",
               "RelativeDocumentMoniker": "Seatsure.DAL\\Migrations\\20260807213115_InitialCreate.cs",
               "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.DAL\\Migrations\\20260807213115_InitialCreate.cs",
               "RelativeToolTip": "Seatsure.DAL\\Migrations\\20260807213115_InitialCreate.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAQwIAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwIAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-07T21:31:17.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure\\Program.cs",
               "RelativeDocumentMoniker": "Seatsure\\Program.cs",
@@ -128,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure\\appsettings.json",
               "RelativeDocumentMoniker": "Seatsure\\appsettings.json",
@@ -141,85 +141,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Seatsure.DAL\\AppDbContext.cs",
               "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.DAL\\AppDbContext.cs",
               "RelativeToolTip": "Seatsure.DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T20:37:07.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ReservationStatus.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\ReservationStatus.cs",
               "RelativeDocumentMoniker": "Seatsure.Domain\\ReservationStatus.cs",
               "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\ReservationStatus.cs",
               "RelativeToolTip": "Seatsure.Domain\\ReservationStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T20:20:02.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Reservation.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\Reservation.cs",
               "RelativeDocumentMoniker": "Seatsure.Domain\\Reservation.cs",
               "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\Reservation.cs",
               "RelativeToolTip": "Seatsure.Domain\\Reservation.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwB0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA4wAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T20:08:51.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "TicketType.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\TicketType.cs",
               "RelativeDocumentMoniker": "Seatsure.Domain\\TicketType.cs",
               "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\TicketType.cs",
               "RelativeToolTip": "Seatsure.Domain\\TicketType.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIA1wBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T19:59:34.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "EventStatus.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\EventStatus.cs",
               "RelativeDocumentMoniker": "Seatsure.Domain\\EventStatus.cs",
               "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\EventStatus.cs",
               "RelativeToolTip": "Seatsure.Domain\\EventStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T19:52:21.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\Event.cs",
               "RelativeDocumentMoniker": "Seatsure.Domain\\Event.cs",
-              "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\Event.cs",
-              "RelativeToolTip": "Seatsure.Domain\\Event.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCYAAABbAAAAAAAAAA==",
+              "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\Event.cs [Read Only]",
+              "RelativeToolTip": "Seatsure.Domain\\Event.cs [Read Only]",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAAAAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T19:48:21.181Z",
-              "EditorCaption": ""
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\UserRole.cs",
               "RelativeDocumentMoniker": "Seatsure.Domain\\UserRole.cs",
@@ -232,13 +232,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\User.cs",
               "RelativeDocumentMoniker": "Seatsure.Domain\\User.cs",
               "ToolTip": "D:\\Back end\\Recap\\new projects\\test\\Seatsure\\Seatsure.Domain\\User.cs",
               "RelativeToolTip": "Seatsure.Domain\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T19:30:59.775Z",
               "EditorCaption": ""

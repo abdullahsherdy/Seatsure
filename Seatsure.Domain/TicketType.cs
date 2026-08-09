@@ -37,5 +37,7 @@ namespace Seatsure.Domain
         // byteArray 
 
         public byte[] RowVersion { get; set; }
+
+        public ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
     }
 }

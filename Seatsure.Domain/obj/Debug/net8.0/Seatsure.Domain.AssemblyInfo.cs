@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Seatsure.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b92950f1cc73896f9ffd88f3bfbd1d0fed57994e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bd1206a6c7789368df340ea760a8c0356d7d55b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Seatsure.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Seatsure.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

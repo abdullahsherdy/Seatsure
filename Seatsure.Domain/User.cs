@@ -25,7 +25,9 @@ namespace Seatsure.Domain
         // P@ssword$5rtdt 
         // hashed string, result of hashing for password 
         // SHA256, SHA512, bcrypt, argon2, PBKDF2
-        public string Password { get; set; }
+        // store it directly as an hashed value 
+
+        public string PasswordHash { get; set; } = string.Empty;
 
         // role 
         public UserRole role { get; set; }
