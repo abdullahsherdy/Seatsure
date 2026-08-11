@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # .NET 9 SDK is required for the `dotnet` CLI to build the .slnx solution
       # format (SDK >= 9.0.200); 8.0.x is installed alongside for completeness.
