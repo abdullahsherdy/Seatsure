@@ -34,9 +34,16 @@ The API Layer contains the controllers and API endpoints that use the applicatio
 
 ```
     |____ API => contains the controllers, and the API endpoints that use the application services
-    |____Infrastructure -> contains the implementation of the repository interfaces, and the implementation of the DbContext
+    |____ Infrastructure -> contains the implementation of the repository interfaces, and the implementation of the DbContext
     |____ Application -> contains the repository interfaces, and the application services that use the repository interfaces
     |
-    |___Domain -> contains the domain entities, and the domain services that use the domain entities
+    |___ Domain -> contains the domain entities, and the domain services that use the domain entities
 
 ```
+
+## the next session, plan?
+1. explain the repository pattern, real benefits of it, and when to use and when not to use. 
+2. Dbcontext vs repository pattern 
+3. how to determine the exitance of business logic?
+4. live coding -> repsitory pattern and BL but following clean architecture common folder structure. 
+5. Q&A 
