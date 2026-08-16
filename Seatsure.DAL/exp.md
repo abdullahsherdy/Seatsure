@@ -33,6 +33,7 @@ The API Layer contains the controllers and API endpoints that use the applicatio
 
 
 ```
+    
     |____ API => contains the controllers, and the API endpoints that use the application services
     |____ Infrastructure -> contains the implementation of the repository interfaces, and the implementation of the DbContext
     |____ Application -> contains the repository interfaces, and the application services that use the repository interfaces
@@ -47,3 +48,6 @@ The API Layer contains the controllers and API endpoints that use the applicatio
 3. how to determine the exitance of business logic?
 4. live coding -> repsitory pattern and BL but following clean architecture common folder structure. 
 5. Q&A 
+
+
+
