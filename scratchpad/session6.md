@@ -28,12 +28,13 @@ class exist' conversation."* Everything below serves that sentence. If interns l
 
 - **Doc vs reality:** `CLAUDE.md` says services/repos/DTOs/JWT are "not yet built." They *are* built.
   Only **controllers** and the **SignalR hub** are missing. Teach from the working code; fix CLAUDE.md later.
-  
-- **The fact that makes Block B work:** in [Program.cs:16-23](../Seatsure/Program.cs#L16-L23) the `AppDbContext`
-  and all four repositories are registered **`Scoped`**. So within one HTTP request, every repository
-  wraps the **same** `AppDbContext` instance. Hold this fact; it is the punchline of Block B.
+
+
+- **The fact that makes Block B work:** in [Program.cs:16-23](../Seatsure/Program.cs#L16-L23) the `AppDbContext` and all four repositories are registered **`Scoped`**. So within one HTTP request, every repository wraps the **same** `AppDbContext` instance. Hold this fact; it is the punchline of Block B.
+
 - **Files to have open:** `ReservationService.cs`, `TicketTypeRepository.cs`, `ReservationRepository.cs`,
   `AppDbContext.cs`, `Program.cs`, `AppExceptions.cs`.
+
 
 ---
 
