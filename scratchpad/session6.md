@@ -73,7 +73,7 @@ repository seam is what makes that test possible without SQL Server.
   *if* you value the seam (we do, for tests). It is pure ceremony if you don't test and never intend to
   swap the provider.
 - Rule of thumb to give them: **"Add a repository when you have a reason to fake or rename the data
-  access. Otherwise `DbContext` is enough."**
+  access. Othterwise `DbContext` is enough."**
 
 ---
 
@@ -443,7 +443,7 @@ project in ten seconds.*
 
 ---
 
-## 7. Block F — Q&A bank (anticipated questions + crisp answers)
+## 7. Block F — Q&A bank (anticipated quesions + crisp answers)
 
 - **"If `DbContext` is already a Unit of Work, why did we build `IUnitOfWork`?"**
   To give the BLL an honest, fakeable name for "commit" without depending on EF Core directly. It's a
