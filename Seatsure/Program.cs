@@ -21,6 +21,7 @@ namespace Seatsure
             builder.Services.AddScoped<IEventRepository, EventRepository>();
             builder.Services.AddScoped<ITicketTypeRepository, TicketTypeRepository>();
             builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             // Register business-logic layer (services, security, JWT options)
             builder.Services.AddBll(builder.Configuration);

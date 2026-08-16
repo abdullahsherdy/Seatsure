@@ -31,7 +31,4 @@ public class EventRepository : IEventRepository
 
     public async Task AddAsync(Event ev) =>
         await _context.Events.AddAsync(ev);
-
-    public async Task SaveChangesAsync() =>
-        await _context.SaveChangesAsync();
 }
