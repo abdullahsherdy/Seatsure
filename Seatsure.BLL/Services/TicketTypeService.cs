@@ -1,6 +1,7 @@
 using Seatsure.BLL.DTOs.TicketTypes;
 using Seatsure.BLL.Exceptions;
 using Seatsure.BLL.Services.Interfaces;
+using Seatsure.DAL;
 using Seatsure.DAL.Repositories.Interfaces;
 using Seatsure.Domain;
 
@@ -10,11 +11,13 @@ internal sealed class TicketTypeService : ITicketTypeService
 {
     private readonly ITicketTypeRepository _ticketTypes;
     private readonly IEventRepository _events;
+    private readonly IUnitOfWork _unitOfWork;
 
-    public TicketTypeService(ITicketTypeRepository ticketTypes, IEventRepository events)
+    public TicketTypeService(ITicketTypeRepository ticketTypes, IEventRepository events, IUnitOfWork unitOfWork)
     {
         _ticketTypes = ticketTypes;
         _events = events;
+        _unitOfWork = unitOfWork;
     }
 
     public async Task<IEnumerable<TicketTypeDto>> GetByEventIdAsync(Guid eventId)
@@ -52,7 +55,7 @@ internal sealed class TicketTypeService : ITicketTypeService
         };
 
         await _ticketTypes.AddAsync(ticketType);
-        await _ticketTypes.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
 
         return ticketType.ToDto();
     }

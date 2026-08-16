@@ -22,7 +22,4 @@ public class TicketTypeRepository : ITicketTypeRepository
 
     public async Task AddAsync(TicketType ticketType) =>
         await _context.TicketTypes.AddAsync(ticketType);
-
-    public async Task SaveChangesAsync() =>
-        await _context.SaveChangesAsync();
 }

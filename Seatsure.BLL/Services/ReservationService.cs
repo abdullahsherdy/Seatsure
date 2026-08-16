@@ -3,6 +3,7 @@ using Seatsure.BLL.DTOs.Reservations;
 using Seatsure.BLL.Exceptions;
 using Seatsure.BLL.Notifications;
 using Seatsure.BLL.Services.Interfaces;
+using Seatsure.DAL;
 using Seatsure.DAL.Repositories.Interfaces;
 using Seatsure.Domain;
 
@@ -18,15 +19,18 @@ internal sealed class ReservationService : IReservationService
 
     private readonly IReservationRepository _reservations;
     private readonly ITicketTypeRepository _ticketTypes;
+    private readonly IUnitOfWork _unitOfWork;
     private readonly IAvailabilityNotifier _notifier;
 
     public ReservationService(
         IReservationRepository reservations,
         ITicketTypeRepository ticketTypes,
+        IUnitOfWork unitOfWork,
         IAvailabilityNotifier notifier)
     {
         _reservations = reservations;
         _ticketTypes = ticketTypes;
+        _unitOfWork = unitOfWork;
         _notifier = notifier;
     }
 
@@ -61,7 +65,7 @@ internal sealed class ReservationService : IReservationService
         // If a concurrent request already changed the row, EF throws and we surface a 409.
         try
         {
-            await _reservations.SaveChangesAsync();
+            await _unitOfWork.SaveChangesAsync();
         }
         catch (DbUpdateConcurrencyException)
         {
@@ -89,7 +93,7 @@ internal sealed class ReservationService : IReservationService
 
         reservation.Status = ReservationStatus.Confirmed;
         reservation.ConfirmedAtUtc = DateTime.UtcNow;
-        await _reservations.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
 
         // Availability is unchanged by confirm, but §3.6 lists it as a broadcast trigger.
         await _notifier.AvailabilityChangedAsync(reservation.TicketTypeId, reservation.TicketType.AvailableQuantity);
@@ -110,7 +114,7 @@ internal sealed class ReservationService : IReservationService
 
         reservation.Status = ReservationStatus.Cancelled;
         reservation.TicketType.AvailableQuantity += reservation.Quantity;
-        await _reservations.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
 
         await _notifier.AvailabilityChangedAsync(reservation.TicketTypeId, reservation.TicketType.AvailableQuantity);
         return reservation.ToDto();
@@ -134,7 +138,7 @@ internal sealed class ReservationService : IReservationService
             reservation.TicketType.AvailableQuantity += reservation.Quantity;
         }
 
-        await _reservations.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
 
         // Broadcast the restored availability per affected ticket type.
         foreach (var reservation in expired)

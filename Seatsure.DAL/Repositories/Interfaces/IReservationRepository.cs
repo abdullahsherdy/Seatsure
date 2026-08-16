@@ -8,5 +8,4 @@ public interface IReservationRepository
     Task<IEnumerable<Reservation>> GetByUserIdAsync(Guid userId);
     Task<IEnumerable<Reservation>> GetExpiredHoldsAsync();
     Task AddAsync(Reservation reservation);
-    Task SaveChangesAsync();
 }

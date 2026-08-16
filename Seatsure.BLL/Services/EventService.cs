@@ -2,6 +2,7 @@ using Seatsure.BLL.DTOs.Common;
 using Seatsure.BLL.DTOs.Events;
 using Seatsure.BLL.Exceptions;
 using Seatsure.BLL.Services.Interfaces;
+using Seatsure.DAL;
 using Seatsure.DAL.Repositories.Interfaces;
 using Seatsure.Domain;
 
@@ -12,11 +13,13 @@ internal sealed class EventService : IEventService
     private const int MaxPageSize = 100;
     private readonly IEventRepository _events;
     private readonly IUserRepository _users;
+    private readonly IUnitOfWork _unitOfWork;
 
-    public EventService(IEventRepository events, IUserRepository users)
+    public EventService(IEventRepository events, IUserRepository users, IUnitOfWork unitOfWork)
     {
         _events = events;
         _users = users;
+        _unitOfWork = unitOfWork;
     }
 
     public async Task<PagedResult<EventDto>> GetPublishedAsync(int page, int pageSize)
@@ -63,7 +66,7 @@ internal sealed class EventService : IEventService
         };
 
         await _events.AddAsync(ev);
-        await _events.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
 
         return ev.ToDto();
     }
@@ -84,7 +87,7 @@ internal sealed class EventService : IEventService
         if (ev.Status != EventStatus.Published)
         {
             ev.Status = EventStatus.Published;
-            await _events.SaveChangesAsync();
+            await _unitOfWork.SaveChangesAsync();
         }
 
         return ev.ToDto();
