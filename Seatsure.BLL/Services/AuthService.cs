@@ -2,6 +2,7 @@ using Seatsure.BLL.DTOs.Auth;
 using Seatsure.BLL.Exceptions;
 using Seatsure.BLL.Security;
 using Seatsure.BLL.Services.Interfaces;
+using Seatsure.DAL;
 using Seatsure.DAL.Repositories.Interfaces;
 using Seatsure.Domain;
 
@@ -10,12 +11,14 @@ namespace Seatsure.BLL.Services;
 internal sealed class AuthService : IAuthService
 {
     private readonly IUserRepository _users;
+    private readonly IUnitOfWork _unitOfWork;
     private readonly IPasswordHasher _hasher;
     private readonly ITokenService _tokens;
 
-    public AuthService(IUserRepository users, IPasswordHasher hasher, ITokenService tokens)
+    public AuthService(IUserRepository users, IUnitOfWork unitOfWork, IPasswordHasher hasher, ITokenService tokens)
     {
         _users = users;
+        _unitOfWork = unitOfWork;
         _hasher = hasher;
         _tokens = tokens;
     }
@@ -47,7 +50,7 @@ internal sealed class AuthService : IAuthService
         };
 
         await _users.AddAsync(user);
-        await _users.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
 
         return new UserDto(user.Id, user.Name, user.Email, user.Role.ToString());
     }
