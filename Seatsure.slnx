@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="Seatsure.BLL/Seatsure.BLL.csproj" />
-  <Project Path="Seatsure.DAL/Seatsure.DAL.csproj" />
-  <Project Path="Seatsure.Domain/Seatsure.Domain.csproj" />
-  <Project Path="Seatsure/Seatsure.csproj" />
+  <Project Path="new/Seatsure.Application/Seatsure.Application.csproj" Id="4608595c-98cb-4eea-85ec-2814938beba0" />
+  <Project Path="new/Seatsure.Domain/Seatsure.Domain.csproj" />
+  <Project Path="new/Seatsure.Infrastructure/Seatsure.Infrastructure.csproj" Id="cefd041b-92ce-4825-ac59-b005fc011350" />
+  <Project Path="new/Seatsure/Seatsure.csproj" />
 </Solution>

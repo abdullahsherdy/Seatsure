@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Seatsure.Domain\Seatsure.Domain.csproj" />
-    <ProjectReference Include="..\Seatsure.DAL\Seatsure.DAL.csproj" />
   </ItemGroup>
 
   <ItemGroup>
