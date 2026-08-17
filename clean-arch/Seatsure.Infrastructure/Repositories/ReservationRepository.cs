@@ -8,7 +8,9 @@ using Seatsure.Domain;
 using Seatsure.Infrastructure.Data;
 using Microsoft.Identity.Client;
 using Microsoft.EntityFrameworkCore;
+
 namespace Seatsure.Infrastructure.Repositories;
+
 public class ReservationRepository:IReservationRepistory
 {
     private readonly AppDbContext _context; 

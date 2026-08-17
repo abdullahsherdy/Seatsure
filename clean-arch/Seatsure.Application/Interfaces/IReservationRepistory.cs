@@ -4,17 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace Seatsure.Application.Interfaces
+namespace Seatsure.Application.Interfaces;
+
+public interface IReservationRepistory
 {
-    public interface IReservationRepistory
-    {
 
-        Task<Reservation?> GetByIdAsync(Guid id);
+    Task<Reservation?> GetByIdAsync(Guid id);
 
-        Task<IEnumerable<Reservation>> GetByUserIdAsync(Guid userId);
+    Task<IEnumerable<Reservation>> GetByUserIdAsync(Guid userId);
 
-        Task<IEnumerable<Reservation>> GetExpiredHoldAsync();
+    Task<IEnumerable<Reservation>> GetExpiredHoldAsync();
 
-        Task AddAsync(Reservation reservation);
-    }
+    Task AddAsync(Reservation reservation);
 }

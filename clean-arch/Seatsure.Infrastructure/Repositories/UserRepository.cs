@@ -9,6 +9,7 @@ using Seatsure.Domain;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.Serialization;
 namespace Seatsure.Infrastructure.Repositories;
+
 public class UserRepository: IUserRepository
 {
         private readonly AppDbContext _context;

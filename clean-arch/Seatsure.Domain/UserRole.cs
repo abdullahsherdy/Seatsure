@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seatsure.Domain
+namespace Seatsure.Domain;
+public enum UserRole
 {
-    public enum UserRole
-    {
-        Organizer =1,
-        Attendee = 2
-    }
+    Organizer =1,
+    Attendee = 2
 }

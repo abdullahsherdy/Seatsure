@@ -3,6 +3,7 @@ using Seatsure.Application.Interfaces;
 using SEatsure.Infrastructure.repositories;
 using Seatsure.Infrastructure.Data;
 namespace Seatsure;
+
 public class Program
 {
     public static void Main(string[] args)
@@ -15,10 +16,9 @@ public class Program
 
         // register repositories for DI 
         builder.Services.AddScoped<IUserRepository, UserRepository>();
-        builder.Services.AddScoped<ITicketRepository, TicketRepository>();
         builder.Services.AddScoped<IEventRepository, EventRepository>();
         builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
-
+        builder.Services.AddScoped<ITicketTypeRepository, TicketTypeRepository>();
 
 
         builder.Services.AddControllers();

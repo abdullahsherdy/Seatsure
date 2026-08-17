@@ -18,12 +18,9 @@ public class TicketTypeRepository: ITickeTypeRepository
 
     public async Task AddAsync(TicketType ticketType) => await _context.TicketTypes.AddAsync(ticketType);
 
-
     public async Task<IEnumerable<TicketType>> GetByEventIdAsync(Guid eventId) => await _context.TicketTypes
             .Where(t => t.EventId == eventId)
             .ToListAsync();
-
-    
 
     public async Task<TicketType?> GetTicketTypeByIdAsync(Guid id) => await _context.TicketTypes.FindAsync(id);
     

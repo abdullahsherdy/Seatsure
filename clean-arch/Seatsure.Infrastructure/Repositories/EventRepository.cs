@@ -9,6 +9,7 @@ using Seatsure.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace Seatsure.Infrastructure.Repositories;
+
 public class EventRepository : IEventRepository
 {
 

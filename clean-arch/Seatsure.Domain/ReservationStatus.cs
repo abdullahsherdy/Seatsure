@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Seatsure.Domain
+namespace Seatsure.Domain;
+
+public enum ReservationStatus
 {
-    public enum ReservationStatus
-    {
-        Pending =1, 
-        Confirmed =2, 
-        Expired =3, 
-        Cancelled = 4
-    }
+    Pending =1, 
+    Confirmed =2, 
+    Expired =3, 
+    Cancelled = 4
 }
