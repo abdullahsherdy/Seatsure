@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Seatsure.Domain;
 namespace Seatsure.Application.Interfaces;
 
-public interface ITickeTypeRepository
+public interface ITicketTypeRepository
 {
     Task<TicketType?> GetTicketTypeByIdAsync(Guid id);
 

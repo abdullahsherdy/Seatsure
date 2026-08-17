@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Seatsure.Application.Interfaces;
 
-public interface IReservationRepistory
+public interface IReservationRepository
 {
 
     Task<Reservation?> GetByIdAsync(Guid id);

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Seatsure.Infrastructure.Repositories;
 
-public class TicketTypeRepository: ITickeTypeRepository
+public class TicketTypeRepository : ITicketTypeRepository
 {
     private readonly AppDbContext _context;
 

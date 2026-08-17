@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Seatsure.Application.Interfaces;
-using SEatsure.Infrastructure.repositories;
+using Seatsure.Infrastructure.Repositories;
 using Seatsure.Infrastructure.Data;
 namespace Seatsure;
 

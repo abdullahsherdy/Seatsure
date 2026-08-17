@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Seatsure.Infrastructure.Repositories;
 
-public class ReservationRepository:IReservationRepistory
+public class ReservationRepository : IReservationRepository
 {
     private readonly AppDbContext _context; 
     
