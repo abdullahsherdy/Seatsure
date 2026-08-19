@@ -6,7 +6,9 @@ namespace Seatsure.Application.DTOs;
 public record EventDto(Guid id, Guid OrganizerId, string title, string description, string venue, DateTime startsAtutc, EventStatus status);
 
 // input for post/event endpoint 
-public record CreateEventDto(Guid organizerId, string title, string description, string venue, DateTime startsAtutc);
+// OrganizerId is passed from cookies for user, and status is defaulted to Draft.
+
+public record CreateEventDto(string title, string description, string venue, DateTime startsAtutc);
 
 
 // output record for frontend to display event details, and also for authorization purposes. for Get/event/{id} endpoint
