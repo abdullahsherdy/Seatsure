@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Seatsure.Application.Notifications
 {
-    internal class NullAVailabilityNotifier
+    public class NullAVailabilityNotifier : IAvailabilityNotification
     {
+        // 
+        public Task AvailabilityChangedAsync(Guid Ticketid, int availableQunatity) => Task.CompletedTask; 
     }
 }
