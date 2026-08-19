@@ -10,8 +10,6 @@ public sealed class Jwtoptions
 
     public string Key { get; set; } = string.Empty;
 
-    public int ExpiryInMinutes { get; set; } 120; 
-
-}
+    public int ExpiryInMinutes { get; set; } = 120; 
 
 }

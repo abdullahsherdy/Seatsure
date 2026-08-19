@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Seatsure.Domain;
 
-namespace Seatsure.Application.Security
+namespace Seatsure.Application.Security;
+public interface IJWTService
 {
-    internal interface IJWTService
-    {
-    }
+    (string token, DateTime ExpiresAtUtc) generateToken(User user);
+
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Options;
+using Seatsure.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,9 @@ internal sealed class JwtService : IJWTService
     public JwtService(IOptions<Jwtoptions> jwtoptions)
     {
         _jwtoptions = jwtoptions.Value;
-    }>)
-
+    }
+public (string token, DateTime ExpiresAtUtc) generateToken(User user)
+    {
+        throw new NotImplementedException();
+    }
 }
