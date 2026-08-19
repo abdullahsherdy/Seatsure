@@ -19,7 +19,17 @@ public class Program
         builder.Services.AddScoped<IEventRepository, EventRepository>();
         builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
         builder.Services.AddScoped<ITicketTypeRepository, TicketTypeRepository>();
+    
+        // register Jwt 
+        builder.services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = "JwtBearer";
+            options.DefaultChallengeScheme = "JwtBearer";
+        });
 
+
+        // register JWtService to pass keys and generate tokens
+        builder.Services.AddScoped<IJwtService, JwtService>();
 
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
