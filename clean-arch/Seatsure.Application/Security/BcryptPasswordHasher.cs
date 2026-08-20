@@ -1,4 +1,5 @@
-﻿
+﻿using BCrypt.Net;
+
 namespace Seatsure.Application.Security;
 
 internal sealed class BcryptPasswordHasher : IPasswordHasher

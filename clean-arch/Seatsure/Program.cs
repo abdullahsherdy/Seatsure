@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Seatsure.Application.Interfaces;
 using Seatsure.Infrastructure.Repositories;
 using Seatsure.Infrastructure.Data;
+using Seatsure.Application.Security; // Add this line to include the BcryptPasswordHasher class
 namespace Seatsure;
 
 public class Program
@@ -20,16 +21,16 @@ public class Program
         builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
         builder.Services.AddScoped<ITicketTypeRepository, TicketTypeRepository>();
     
-        // register Jwt 
-        builder.services.AddAuthentication(options =>
-        {
-            options.DefaultAuthenticateScheme = "JwtBearer";
-            options.DefaultChallengeScheme = "JwtBearer";
-        });
+        // // register Jwt 
+        // builder.services.AddAuthentication(options =>
+        // {
+        //     options.DefaultAuthenticateScheme = "JwtBearer";
+        //     options.DefaultChallengeScheme = "JwtBearer";
+        // });
 
 
         // register JWtService to pass keys and generate tokens
-        builder.Services.AddScoped<IJwtService, JwtService>();
+        // builder.Services.AddScoped<IJWTService, JwtService>(); 
 
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
