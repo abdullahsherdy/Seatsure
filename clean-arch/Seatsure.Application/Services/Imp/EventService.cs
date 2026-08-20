@@ -1,5 +1,5 @@
 ﻿using Seatsure.Application.Bll.DTOs;
-using Seatsure.Application.DTOs.Event;
+using Seatsure.Application.DTOs;
 using Seatsure.Application.Interfaces;
 using Seatsure.Application.Services.Interfaces;
 using Seatsure.Application.Exceptions;
@@ -107,7 +107,6 @@ internal sealed class EventService : IEventService
 
         var (items, totalCount) = await _eventRepository.GetPublishedAsync(page, pageSize); 
 
-        return new PagedResult<Event>()
         throw new NotImplementedException();
     }
 

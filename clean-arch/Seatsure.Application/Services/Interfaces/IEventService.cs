@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Seatsure.Application.Bll.DTOs;
-using Seatsure.Application.DTOs.Event;
+using Seatsure.Application.DTOs;
 using Seatsure.Domain;
 /*
  * 
@@ -47,4 +47,3 @@ public  interface IEventService
     Task<EventDto> PublishEventAsync(Guid CallerId, Guid EventId);
 
 }
-
