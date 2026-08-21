@@ -7,7 +7,7 @@
 
 ## 1. Domain Model
 
-### 1.1 Entities
+### 1.1 Data Models
 
 | Entity | Purpose |
 |---|---|
