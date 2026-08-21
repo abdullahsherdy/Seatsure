@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Seatsure.Application.Interfaces
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork
     {
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

@@ -12,7 +12,7 @@ using Seatsure.Domain;
 
 namespace Seatsure.Application.Services.Imp;
 
-public sealed class TicektTypeService : ITicketTypeService
+internal sealed class TicektTypeService : ITicketTypeService
 {
 
      private readonly IUnitOfWork _unitOfWork;
@@ -36,7 +36,7 @@ public sealed class TicektTypeService : ITicketTypeService
             throw new ValidationException("Ticket type name is required.");
 
         if(request.price < 1)
-            throw new ValidationException("price can't be lass than 1")
+            throw new ValidationException("price can't be lass than 1");
 
         if (request.TotalQuantity < 0)
             throw new ValidationException("Total quantity can't be less than zero.");
